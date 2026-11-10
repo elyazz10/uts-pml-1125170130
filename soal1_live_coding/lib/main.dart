@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main(){
@@ -70,22 +69,72 @@ class Profile extends StatelessWidget {
                 'Tekhnik Informatika',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
-              SizedBox(height: 25,)
+              SizedBox(height: 20,),
+              Card(
+                child: Column(
+                  children: [
+                    infotile(
+                      icon: Icons.email,
+                      label: 'Email',
+                      value: 'Kcelyaz@gmail.com',
+                    ),
+                    infotile(
+                      icon: Icons.phone,
+                      label: 'No Telpon',
+                      value: '085731936284',
+                    ),
+                    infotile(
+                      icon: Icons.group,
+                      label: 'Kelas',
+                      value: 'TI25KS',
+                    ),
+                    infotile(
+                      icon: Icons.work,
+                      label: 'Github',
+                      value: 'elyazz10',
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 15,),
+              Text('Hobi dan Keahlian',style: TextStyle(fontSize: 20),),
+              SizedBox(height: 20,),
+              Card(
+                child: Column(
+                  children: [
+                    infotile(
+                      icon: Icons.music_note,
+                      label: 'Hobi',
+                      value: 'Dengar musik 24 jam',
+                    ),
+                    infotile(
+                      icon: Icons.brush,
+                      label: 'Keahlian',
+                      value: 'Menggambar dan Melukis',
+                    ),
+                    infotile(
+                      icon: Icons.sports_soccer,
+                      label: 'Hobi',
+                      value: 'Maen Bola',
+                    )
+                  ],
+                ),
+              )
             ],
           ),
         ),
-        
+
         ),
       ),
       floatingActionButton: FloatingActionButton(onPressed: (){
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Tidak ada data ditambahkan'),
+          SnackBar(content: Text('Terimakasih telah melihat profile saya'),
           )
         );
 
       },
-      tooltip: 'add',
-      child: Icon(Icons.add),
+      tooltip: 'thanks',
+      child: Icon(Icons.favorite),
       ),
     );
   }
@@ -100,7 +149,7 @@ class infotile extends StatelessWidget {
   required this.icon,
   required this.label,
   required this.value,
-  
+
   });
 
   @override
