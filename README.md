@@ -1,39 +1,45 @@
-# UTS Pemrograman Mobile (PML)
+# UTS Pemrograman Mobile
 
-Repositori pengerjaan Ujian Tengah Semester (UTS) Mata Kuliah Pemrograman Mobile.
+Repositori tugas UTS Pemrograman Mobile.
 
-## 👤 Identitas Mahasiswa
-* **Nama**: ahmad ilyas
-* **NIM**: 1125170130
-* **Kelas**: TI25KS
-* **Program Studi**: Tekhnik Informatika
+## Identitas Mahasiswa
+- Nama: ahmad ilyas
+- NIM: 1125170130
+- Kelas: TI25KS
+- Prodi: Tekhnik Informatika
 
----
+## Link Video Presentasi
+Link YouTube: [Isi link video disini](https://youtube.com)
 
-## 📁 Struktur Repositori
+## Screenshot Aplikasi
+### 1. Halaman Login
+![Login](soal2_profile_app/assets/screenshots/login.png)
 
-```text
-uts-pml-1125170130/
-├── soal1_live_coding/    # Soal 1: Pengerjaan Live Coding (Profil Mahasiswa)
-└── soal2_profile_app/    # Soal 2: Proyek Lengkap Aplikasi Android Profil Mahasiswa
-```
+### 2. Halaman Profil
+![Profil](soal2_profile_app/assets/screenshots/profile.png)
 
----
+### 3. Halaman Edit Profil
+![Edit Profil](soal2_profile_app/assets/screenshots/edit_profile.png)
 
-## 📝 Ringkasan Proyek
+## Fitur Aplikasi (Soal 2)
+- Halaman Login ada validasi input dan loading
+- Halaman Profil ada foto diri dari asset, data diri mahasiswa, dan kontak
+- Halaman Edit Profil ada validasi nama, email, nomor hp dan bisa update data ke profil
+- Halaman Tentang Saya ada listview hobi dan riwayat sekolah (SMP dan SMK)
+- Navigasi ada Drawer, Bottom Navigation Bar, dan tombol Edit (FAB)
+- Bisa ubah tema terang dan gelap langsung dari aplikasi
+- Nama aplikasi di Android: Profil Ilyas
 
-### 1. `soal1_live_coding`
-* Aplikasi profil mahasiswa yang dikerjakan saat sesi live coding secara bertahap (Tahap 1 s.d. Tahap 3).
-* Menggunakan widget dasar Flutter: `MaterialApp`, `Scaffold`, `CircleAvatar`, `Card`, dan widget kustom `infotile`.
-
-### 2. `soal2_profile_app`
-* Aplikasi Android lengkap dengan arsitektur terstruktur:
-  * **Halaman Login**: Form validasi + loading indicator + `Navigator.pushReplacementNamed`.
-  * **Halaman Profil**: Foto dari `assets/images/`, info mahasiswa, kontak card, refresh state dinamis via `setState()`.
-  * **Halaman Edit Profil**: Form dengan validasi nama wajib, email valid regex, nomor HP 10-13 digit angka, pengembalian data via `Navigator.pop(context, dataBaru)`.
-  * **Halaman Tentang Saya**: Daftar keahlian, hobi, dan riwayat pendidikan menggunakan `ListView`.
-  * **Scaffold Lengkap**: Dilengkapi dengan `Drawer`, `BottomNavigationBar`, dan `FloatingActionButton`.
-  * **Tema Interaktif**: Mendukung `ThemeMode.light` dan `ThemeMode.dark` dengan switcher instan.
-  * **Identitas Android**: Nama aplikasi pada HP Android: **Profil Ilyas** (`android:label="Profil Ilyas"`).
-* Untuk dokumentasi lengkap, panduan menjalankan, serta tautan video presentasi YouTube, silakan buka [README Soal 2](soal2_profile_app/README.md).
-
+## Cara Menjalankan
+1. Masuk ke folder soal 2:
+   ```bash
+   cd soal2_profile_app
+   ```
+2. Jalankan perintah get package:
+   ```bash
+   flutter pub get
+   ```
+3. Jalankan aplikasi:
+   ```bash
+   flutter run
+   ```
