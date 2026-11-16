@@ -3,7 +3,7 @@
 Repositori tugas UTS Pemrograman Mobile.
 
 ## Identitas Mahasiswa
-- Nama: ahmad ilyas
+- Nama: Ahmad ilyas
 - NIM: 1125170130
 - Kelas: TI25KS
 - Prodi: Teknik Informatika
