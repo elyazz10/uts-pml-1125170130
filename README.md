@@ -21,6 +21,9 @@ Repositori tugas UTS Pemrograman Mobile.
 ### 3. Halaman Edit Profil
 ![Edit Profil](soal2_profile_app/assets/screenshots/edit_profile.png)
 
+### 4. Halaman Tentang Saya
+![Tentang Saya](soal2_profile_app/assets/screenshots/about.png)
+
 ## Fitur Aplikasi (Soal 2)
 - Halaman Login ada validasi input dan loading
 - Halaman Profil ada foto diri dari asset, data diri mahasiswa, dan kontak
