@@ -6,7 +6,7 @@ Repositori tugas UTS Pemrograman Mobile.
 - Nama: ahmad ilyas
 - NIM: 1125170130
 - Kelas: TI25KS
-- Prodi: Tekhnik Informatika
+- Prodi: Teknik Informatika
 
 ## Link Video Presentasi
 - YouTube: [Tonton di YouTube](https://youtu.be/2jz3amHn108) (https://youtu.be/2jz3amHn108)
