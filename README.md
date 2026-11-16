@@ -9,7 +9,7 @@ Repositori tugas UTS Pemrograman Mobile.
 - Prodi: Tekhnik Informatika
 
 ## Link Video Presentasi
-Link YouTube: [Isi link video disini](https://youtube.com)
+- YouTube: [Tonton di YouTube](https://youtu.be/2jz3amHn108) (https://youtu.be/2jz3amHn108)
 
 ## Screenshot Aplikasi
 ### 1. Halaman Login
